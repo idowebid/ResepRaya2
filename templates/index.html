@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResepRaya</title>
+</head>
+<body>
+    <h1>ResepRaya</h1>
+    <form action="/resep" method="post">
+        <label for="masakan">Masakan:</label>
+        <select name="masakan" id="masakan">
+            <option value="indonesia">Masakan Indonesia</option>
+            <option value="chinese">Chinese Food</option>
+            <option value="western">Western Food</option>
+        </select>
+        <br>
+        <label for="jenis_masakan">Jenis Masakan:</label>
+        <select name="jenis_masakan" id="jenis_masakan">
+            <option value="pembuka">Makanan Pembuka</option>
+            <option value="utama">Makanan Utama</option>
+            <option value="penutup">Makanan Penutup</option>
+        </select>
+        <br>
+        <label for="bahan_utama">Bahan utama yang tersedia:</label>
+        <input type="text" name="bahan_utama" id="bahan_utama">
+        <br>
+        <label for="bahan_lain1">Bahan lain yang tersedia:</label>
+        <input type="text" name="bahan_lain1" id="bahan_lain1">
+        <br>
+        <label for="bahan_lain2">Bahan lain yang tersedia:</label>
+        <input type="text" name="bahan_lain2" id="bahan_lain2">
+        <br>
+        <label for="bahan_lain3">Bahan lain yang tersedia:</label>
+        <input type="text" name="bahan_lain3" id="bahan_lain3">
+        <br>
+        <label for="bahan_lain4">Bahan lain yang tersedia:</label>
+        <input type="text" name="bahan_lain4" id="bahan_lain4">
+        <br>
+        <label for="waktu_memasak">Waktu Memasak:</label>
+        <select name="waktu_memasak" id="waktu_memasak">
+            <option value="15">15 menit</option>
+            <option value="30">30 menit</option>
+            <option value="60">1 jam</option>
+            <option value="lebih">Lebih dari 1 jam</option>
+        </select
+        <br>
+        <input type="submit" value="Cari Resep">
+    </form>
+</body>
+</html>
